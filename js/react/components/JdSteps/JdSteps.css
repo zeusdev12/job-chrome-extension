@@ -1,0 +1,33 @@
+.jd-steps{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid #E6E9ED */
+}
+
+.step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step > p {
+    margin: 0;
+    margin-left: 12px;
+}
+
+.step-breaker{
+    width: 50px;
+    margin-left: 12px;
+    margin-right: 12px;
+    height: 2px;
+    background-color: #E6E9ED;
+}
+
+.step-active{
+    color:  #297AF7;
+}
+.step-inactive{
+    color: #2E2E2E
+}

@@ -1,0 +1,8 @@
+// export const API_HOST = 'https://dnnae-api-prod-bdhweedyzq-uc.a.run.app'
+export const API_HOST = 'https://www.cardinaltalent.ai'
+export const API_HOST_CLONE = 'https://dnnae-api-prod-clone-bdhweedyzq-uc.a.run.app'
+// export const DASHBOARD_HOST = 'https://recruiter.dnnae.com'
+export const DASHBOARD_HOST = 'https://www.cardinaltalent.ai'
+export const NER_HOST = 'https://ner-bdhweedyzq-uc.a.run.app'
+export const API_HOST_PENCILIT = 'https://api.pencilit.io'
+export const PENCILIT_API_KEY = '87567daf248f7d27de37fc48befcba71621b033c'

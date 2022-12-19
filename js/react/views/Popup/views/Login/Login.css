@@ -1,0 +1,100 @@
+.login-root{
+    margin-top: -12px;
+}
+
+.login-root > h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2E2E2E;
+    margin-bottom: 8px;
+}
+
+.login-cta{
+
+}
+
+.login-cta > button {
+    background: #297AF7;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    color: white;
+    border: none;
+}
+
+.login-cta > p {
+    font-size: 12px;
+    color: #A7ABB0;
+    margin-top: 12px;
+}
+
+.login-cta > p > a {
+    text-decoration: underline;
+    color: #A7ABB0;
+    font-weight: 600;
+}
+
+.login-root > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    margin-bottom: 24px;
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features > div {
+    width: 46%;
+    margin-bottom: 24px;
+}
+
+.features > div > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    /* colors/body-grey */
+
+    color: #2E2E2E;
+}
+
+/* .layout-root {
+    height: 526px;
+} */
+
+.feature-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #297AF7;
+    margin-bottom: 12px;
+}
+
+.search-icon {
+    -webkit-mask: url("../../../../../../img/search.svg") no-repeat center;
+    mask:  url("../../../../../../img/search.svg") no-repeat center;
+}
+
+.user-icon {
+    -webkit-mask: url("../../../../../../img/user-check.svg") no-repeat center;
+    mask:  url("../../../../../../img/user-check.svg") no-repeat center;
+}
+
+.message-icon {
+    -webkit-mask: url("../../../../../../img/message-circle.svg") no-repeat center;
+    mask:  url("../../../../../../img/message-circle.svg") no-repeat center;
+}
+
+.calendar-icon {
+    -webkit-mask: url("../../../../../../img/calendar.svg") no-repeat center;
+    mask:  url("../../../../../../img/calendar.svg") no-repeat center;
+}

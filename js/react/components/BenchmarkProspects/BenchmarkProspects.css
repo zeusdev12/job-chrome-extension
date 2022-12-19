@@ -1,0 +1,169 @@
+
+.benchmarkContainer{
+
+}
+.benchmarkModuleContainer{
+    margin: 16px 10% 32px 10%;
+    min-height: 60vh;
+}
+.benchmarkModule{
+    height: 100%;
+}
+.benchmarkModule > h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E2E2E;
+    margin-bottom: 12px;
+}
+.benchmarkModule > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    margin-bottom: 24px;
+}
+.benchmarkInputFieldContainer{
+    display: flex;
+    align-items: center;
+}
+.benchmarkInputFieldContainer > input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E !important;
+    padding: 8px 16px;
+    background: #F5F6F7 !important;
+    border-radius: 8px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    width: 280px;
+}
+.benchmarkInputFieldContainer > input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #A7ABB0;
+}
+.benchmarkInputFieldContainer > button {
+    background-color: #FFFFFF !important;
+    padding: 4px;
+    margin-left: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benchmarkInputFieldContainer > button > img {
+    width: 24px;
+    height: 24px;
+}
+.benchmarkModule > hr{
+    margin: 16px 0px;
+    border-top: 1px solid #E6E9ED;
+}
+.benchmarkFooter{
+    border-top: 1px solid #E6E9ED;
+    background: #FFFFFF;
+    display: flex;
+    position: sticky;
+    width: 100%;
+    bottom: 0px;
+}
+.benchmarkFooter > div{
+    margin: 12px 10% 12px auto;
+    display: flex;
+    align-items: center;
+}
+.benchmarkFooter > div > a{
+    margin-right: 32px;
+    color: #297AF7 !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+.benchmarkFooter > div > a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.benchmarkFooter > div > button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+.benchmarkProspectCard{
+    width: 30%;
+    margin: 0px 8px 8px 0px;
+}
+.benchmarkProspectCardHeader{
+    border-bottom-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.benchmarkProspectCardHeader > img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.benchmarkProspectCardHeader > span{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.benchmarkProspectCardHeader > span > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.benchmarkProspectCardHeader > span > div > span{
+    
+}
+.benchmarkProspectCardHeader > span > div > span > h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2E2E2E;
+    margin: 0px;
+}
+.benchmarkProspectCardHeader > span > div > button{
+    display: grid;
+    place-content: center;
+    padding: 4px;
+    background-color: #E6E9ED !important;
+    border: 1px solid #CDD1D7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+}
+.benchmarkProspectCardHeader > span > div > button > img{
+    width: 24px;
+    height: 24px;
+}
+.benchmarkProspectCardHeader > span > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #A7ABB0;
+    margin: 0px;
+}
+
+.benchmarkIdealPropsectsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: self-end;
+}

@@ -1,0 +1,16 @@
+.edit-progress-root {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.edit-progress-root > button {
+    margin-top: 16px;
+}

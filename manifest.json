@@ -1,0 +1,44 @@
+{
+   "author": [ {
+      "email": "info@cardinaltalent.ai",
+      "name": "CardinalTalent Inc"
+   } ],
+   "background": {
+      "page": "html/background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "img/logo.png",
+      "default_popup": "html/popup_new.html",
+      "default_title": "Cardinal"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "css/content_min.css", "js/toast/jquery.toast.min.css" ],
+      "js": [ "js/lodash.js", "js/jq.js", "js/common.js", "js/toast/jquery.toast.min.js", "js/content_scripts/cs_linkedin.js", "js/content_scripts/cs_linkedin2.js", "js/moment.js" ],
+      "matches": [ "*://www.linkedin.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "css": [ "css/content_min.css", "js/toast/jquery.toast.min.css" ],
+      "js": [ "js/lodash.js", "js/jq.js", "js/content_scripts/cs_webdash.js", "js/moment.js" ],
+      "matches": [ "*://www.cardinaltalent.ai/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com https://maps.googleapis.com; object-src 'self'",
+   "description": "CardinalTalent is your recruiting associate.",
+   "icons": {
+      "128": "img/logo.png",
+      "16": "img/logo.png",
+      "32": "img/logo.png",
+      "64": "img/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn1C0Vb1oZoJGdyDCs167BrGJo/OtNtkcryzpFDcqPuvS8kXRp5MUR0nHWarEPwk5zGPWSo9UissmNCS++vV8Wf1jOAwlJhqHIcr2Rxj05kwz9leF11/LBNmDJ0pBt4ncfgnE+FlwlFNGDMw51Mj9AbzVJYISdIMFWxsMjCosm5yDZrtj8pWooCb8s4POkApWxnJM75QpmQ6hsmmLcwZj7ghtCSHN/WYcBx+aWO7ZGb5ZOYTk63AKz7lfFBa7rGJ6DbvnJLSbQcySKsKGUXRJ5ykiJbiMCcoyl2yHk7yda27GfeqqQm2dWfoGS4gzhBpG93wHdrgXXIjeoaD73tXIgQIDAQAB",
+   "manifest_version": 2,
+   "name": "CardinalTalent - LinkedIn Automation for Recruiters",
+   "permissions": [ "tabs", "notifications", "webRequestBlocking", "unlimitedStorage", "activeTab", "storage", "https://www.cardinaltalent.ai/*" ],
+   "short_name": "CardinalTalent",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5.2",
+   "web_accessible_resources": [ "*.*" ]
+}

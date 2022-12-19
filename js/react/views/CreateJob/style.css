@@ -1,0 +1,69 @@
+.add-job-container{
+    /* margin-top: 80px; */
+    height:100%;
+    width:100% !important;
+}
+
+.add-job-container > h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.add-job-container > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+
+.add-job-content {
+    background-color: red;
+    border-radius: 8px;
+    /* border: 1px solid #E6E9ED; */
+    margin-bottom: 0px 0px 36px 0px;
+}
+.add-job-headerContainer{
+    background: #F5F6F7;
+    height: 154px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+.add-job-heading{
+    font-style: normal;
+    display:flex;
+    flex-direction:column;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2E2E2E;
+    margin-bottom: 8px;
+    padding: 20;
+
+}
+.add-job-top-container{
+    display:flex;
+    justify-content: space-between;
+    margin:0px 32px 0px 32px;
+    height:50%;
+    align-items: flex-end;
+
+}
+.add-job-message{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 40px;
+    padding-left: 20%;
+}
+.add-job-bottomBorder{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.add-job-cancel-button{
+    border-radius: 8px;
+}

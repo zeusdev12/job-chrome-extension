@@ -1,0 +1,10 @@
+.layout-root{
+    width: 384px;
+    background-color: white;
+    /* height: 598px; */
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    padding: 32px;
+    /* border-radius: 12px; */
+}

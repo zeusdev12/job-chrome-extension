@@ -1,0 +1,11 @@
+.svg-active {}
+
+.svg-active > svg > path {
+    stroke: #297AF7;
+}
+
+.svg-inactive {}
+
+.svg-inactive > svg > path {
+    stroke: #A7ABB0
+}

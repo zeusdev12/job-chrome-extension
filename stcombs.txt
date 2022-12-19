@@ -1,0 +1,60 @@
+"devops engineer", "Terraform", "ci/cd", "AWS", "kubernetees"
+	
+	OR COMBS:
+	"Terraform" OR "ci/cd" INC
+	"Terraform" OR "AWS" INC
+	"Terraform" OR "kubernetees" INC
+	"ci/cd" OR "AWS" INC
+	"ci/cd" OR "kubernetees"
+	"AWS" OR "kubernetees" INC
+	
+	"Terraform" OR "ci/cd" OR "AWS"
+	"Terraform" OR "ci/cd" OR "kubernetees"
+	"ci/cd" OR "AWS" OR "kubernetees"
+	
+	"devops engineer" AND ("Terraform" AND "ci/cd" AND "AWS" AND "kubernetees")
+	"devops engineer" AND ("Terraform" AND "ci/cd" AND "AWS" OR "kubernetees") //R1
+	"devops engineer" AND ("Terraform" AND "ci/cd" OR "AWS" AND "kubernetees") //R1
+	"devops engineer" AND ("Terraform" OR "ci/cd" AND "AWS" AND "kubernetees") //R1
+	"devops engineer" AND ("Terraform" OR "AWS" AND "ci/cd" AND "kubernetees") //R2
+	"devops engineer" AND ("Terraform" OR "kubernetees" AND "ci/cd" AND "AWS") //R2
+	"devops engineer" AND ("ci/cd" OR "kubernetees" AND "Terraform" AND "AWS") //R3
+	"devops engineer" AND ("Terraform" OR "ci/cd" OR "AWS" AND "kubernetees") //R3
+	"devops engineer" AND ("Terraform" OR "ci/cd" OR "kubernetees" AND "AWS") //R3
+	"devops engineer" AND ("Terraform" OR "AWS" OR "kubernetees" AND "ci/cd")
+	"devops engineer" AND ("Terraform" OR "ci/cd" OR "AWS" OR "kubernetees")
+
+	ADDED: 433
+	ENHANCED: 227
+	ALL_FOUND: 63
+
+
+
+	"devops engineer" AND ("Terraform" AND "ci/cd" AND "AWS" AND "kubernetees")
+	"devops engineer" AND (("Terraform" OR "ci/cd") AND "AWS" AND "kubernetees")
+	"devops engineer" AND (("Terraform" OR "AWS") AND "ci/cd" AND "kubernetees")
+	"devops engineer" AND (("Terraform" OR "kubernetees") AND "ci/cd" AND "AWS")
+	"devops engineer" AND (("ci/cd" OR "AWS") AND "Terraform" AND "kubernetees")
+	"devops engineer" AND (("ci/cd" OR "kubernetees") AND "Terraform" AND "AWS")
+	"devops engineer" AND (("AWS" OR "kubernetees") AND "Terraform" AND "ci/cd")
+	"devops engineer" AND (("Terraform" OR "ci/cd" OR "AWS") AND "kubernetees")
+	"devops engineer" AND (("Terraform" OR "AWS" OR "kubernetees") AND "ci/cd")
+	"devops engineer" AND (("ci/cd" OR "AWS" OR "kubernetees") AND "Terraform")
+	"devops engineer" AND (("Terraform" OR "AWS" OR "kubernetees") AND "ci/cd")
+	"devops engineer" AND ("Terraform" OR "AWS" OR "kubernetees" OR "ci/cd")
+	
+	
+
+without precedence brackets
+	ADDED: 346
+	ENHANCED: 238
+	ALL_FOUND: 57
+	24% relevance
+
+
+with precedence brackets
+	ADDED: 1018
+	ENHANCED: 374
+	ALL_FOUND: 120
+	32% relevance
+

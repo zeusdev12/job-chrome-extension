@@ -1,0 +1,410 @@
+.top-label-container{
+    display:flex;
+    align-items:center;
+    height:96px;
+    padding:0px 164px 0px 164px;
+    background-color: #F8F9FA;
+    border: 1px solid #E6E9ED;
+    justify-content: space-between;
+}
+.tribe-title-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2E2E2E;
+}
+.tribe-heading-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.tribe-normal-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+.tribe-secondary-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #A7ABB0;
+}
+.new-job-button{
+    width: 100px;
+    height: 42px;
+    left: 1176px;
+    top: 96px;
+    border:none;
+    border-radius: 8px;
+}
+.jobs-content-container{
+    padding:0px 9% 0px 9%;
+    display:flex;
+    min-height:80%;
+}
+
+.jobs-home-notifications{
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    border-left: 1px solid #E6E9ED;
+    border-right: 1px solid #E6E9ED;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.jobs-home-notifications>.label{
+    margin-top:15px;
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid #E6E9ED;
+    height:60px;
+}
+.jobs-home-notifications>.label>div{
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin: 0 10px 0 10px;
+    background-color:black;
+}
+.jobs-home-notifications>.list{
+    display:flex;
+    flex-direction: column;
+    /* min-height:100%; */
+    overflow-y: auto;
+}
+.jobs-home-notifications>.list>.item{
+    display:flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.notification-title{
+    font-weight: normal;
+    margin-top:10px;
+    font-size: 16px;
+    line-height: 20px;  
+    color: #2E2E2E;
+}
+.newNotification-title{
+    font-weight: bold;
+    margin-top:10px;
+    font-size: 16px;
+    line-height: 20px;  
+    color: #2E2E2E;
+}
+.notification-text{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top:-10px;
+    line-height: 20px;
+    color: #A7ABB0;
+}
+.newNotification-text{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top:-10px;
+    line-height: 20px;
+    color: black;
+}
+.notification-read{
+    background-color: white;
+}
+.notification-read:hover {
+    background-color: #F8F9FA;
+  }
+.jobs-home-notifications>.list>.item>div{
+    display:flex;
+    flex-direction: column;
+    padding:16px;
+    border-bottom: 1px solid #E6E9ED;
+    height:100px;
+}
+.jobs-home-notification-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #297AF7;
+    margin-left:85%;
+}
+.jobs-list-container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    margin-right:3%;
+}
+.jobs-list-top-container{
+    display:flex;
+    height:100px;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+.jobs-list-content{
+    display:flex;
+    min-height:80%;
+    flex-flow: row wrap;
+}
+.job-card-container{
+    background: #F8F9FA;
+    width:31%;
+    min-height:200px;
+    border: 1px solid #E6E9ED;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 2.1%;
+    padding:20px;
+    margin-left:2.1%;
+}
+.job-card-container>.job-card-aspects-container{
+    border: 1px solid #E6E9ED;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height:48px;
+    display: flex;
+    align-items: center;
+}
+.job-alert-circle{
+    width: 24px;
+    height: 24px;
+    left: 216px;
+    top: 406px;
+}
+.job-details-group{
+    padding:12px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.job-details-group>span{
+    padding:5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+.job-details-group-line{
+    color: #E6E9ED;
+}
+.job-card-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #297AF7;
+    margin-top:32px;
+}
+.job-card-actions{
+    width:100%;
+    margin-top:12px;
+}
+.job-card-action-add-more-prospects{
+    background: #FFFFFF;
+    width:100%;
+    color: #297AF7; 
+    border: 1px solid #297AF7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding:12px;
+    color: #297AF7;
+}
+.job-card-action-multiple-options{
+    display:flex;
+    justify-content: space-between;
+}
+.job-card-action-multiple-options>Button{
+    background: #FFFFFF;
+    color: #297AF7; 
+    width:100%;
+    border: 1px solid #297AF7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding:12px;
+}
+.job-toggle-dropdown-toggle{
+    z-index:10;
+    cursor:pointer;
+}
+.jobs-toggle{
+    margin: 10px 0px 0px -110px;
+    position:absolute;
+    padding: 8px 0;
+    border: 1px solid #E6E9ED;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    border-radius: 8px;
+    min-width: 150px;
+}
+.jobs-type{
+    margin-right:5px;
+}
+.loader-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80%
+}
+
+.job-trash,.job-trash:focus,.job-trash:active{
+    width:24px;
+    height:24px;
+    margin:-15px 0px 0px -20px;
+    cursor:pointer;
+    border:none !important;
+    box-shadow: none !important;
+}
+.job-trash-dd{
+    margin: 0px 0px 0px -110px;
+    position:absolute;
+    padding: 8px 0;
+    border: 1px solid #E6E9ED;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    border-radius: 8px;
+    min-width: 150px;
+}
+.job-trash-container{
+   width:5%;
+}
+.job-card-name-and-trash{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between
+}
+.job-title-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E2E2E;
+    cursor: pointer
+}
+.job-location-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    
+    color: #2E2E2E;
+    margin-top: -5px;
+}
+.job-creation-time-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    margin-top: -15px;
+}
+.job-view-details-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #297AF7;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.jobs-suggestions-input{    
+    box-sizing: border-box;
+    height: 42px;
+    padding: 16px;
+    background: #F5F6F7;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    width:100%;
+    color: #A7ABB0;
+    
+}
+
+.autosuggest-suggestions-container-jobs {
+    /* width:320px; */
+    left: auto !important;
+    transform: unset !important;
+    border-radius: 8px;
+    border: 1px solid #E6E9ED;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    z-index: 5;
+    position: absolute;
+
+}
+
+.autosuggest-suggestions-container-jobs > ul{
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0px;
+    list-style: none;
+    padding-left: 0;
+    overflow: auto;
+}
+
+.job-input{
+    background: #F8F9FA;
+    border-radius: 8px;
+    border: 1px solid #F8F9FA;
+    min-width :48%;
+    height :42px;
+    color: #A7ABB0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+.AdropDownButtons{
+    padding: 8px 10px;
+    margin: 4px 4px;
+    outline: none !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 40px;
+    color: #2E2E2E;
+    display: flex;
+    align-items: center;
+    border:none !important;
+    box-shadow: none !important;
+}
+.AdropDownButtons:hover,
+.AdropDownButtons:focus{
+    border:none !important;
+    box-shadow: none !important;
+}
+.AdropDownButtons:active{
+    border:none !important;
+    box-shadow: none !important;
+}
+.Additem, .Additem:focus, .Additem:active{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #2E2E2E;
+    margin: 0px;
+    padding: 4px 16px;
+    outline: none;
+    height:40px;
+}
+.Additem:hover{
+    color: #2E2E2E;
+    background: #f8f9fa;
+    border:none;
+}
+

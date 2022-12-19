@@ -1,0 +1,21 @@
+.progressitem-root{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.progressitem-root > p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.progressbar-container {
+    width: 20%;
+}
+
+.progressbar-container > .progress {
+    height: 8px;
+}

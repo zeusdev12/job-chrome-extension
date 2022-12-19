@@ -1,0 +1,53 @@
+.note-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.note-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.note-header-content > h1 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.note-header-content > div {
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin: 0 5px 0 5px;
+    background-color: #A7ABB0;
+}
+
+.note-header-content > p {
+    margin: 0;
+}
+
+.note-header > div:nth-child(2){
+    border: 1px solid #A7ABB0;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0px 5px 1px 5px;
+}
+
+.note-content {
+max-height:500px;
+overflow-y: auto;
+}
+
+.note-content > div {
+    font-size: 16px;
+    color: #A7ABB0;
+}
+
+.note-content > div > span {
+    display: inline-block;
+    margin-right: 7px;
+
+}

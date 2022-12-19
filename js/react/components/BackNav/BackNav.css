@@ -1,0 +1,31 @@
+.backnav-root{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.backnav-root > img {
+    border: 1px solid #A7ABB0;
+    border-radius: 6px;
+    padding: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.backnav-root > div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.backnav-root > div > p:nth-child(1){
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    width: 100%;
+}
+
+.backnav-root > div > p:nth-child(2){
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+}

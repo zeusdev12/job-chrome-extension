@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+		<meta charset="utf-8">
+
+        <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="../css/mystyles.css">
+        
+        <link rel="stylesheet" href="../css/content.css">
+        
+        <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        
+        <script src="../js/dropin.min.js"></script>
+        
+        <script src="../js/jq.js"></script>
+        
+    </head>
+
+    <body>
+    
+    <!-- Image and text -->
+	<nav class="navbar navbar-light bg-light">
+	  <a class="navbar-brand" href="">
+		<img src="../img/web_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+		DNNae
+	  </a>
+	</nav>
+    
+    <div class="imperfect_font" id = "purchase_page" style="margin-left:20px;">
+    	
+    	
+    	<br/>
+    	<center><h2>Payment & Referral</h2></center>
+    	<br/>
+    	
+    	<center>
+    	<h5>
+    	User Type: <span id="userType">Loading..</span><br/>
+    	Credits Left: <span id="creditsLeft">Loading..</span> <br/>
+ 		</h5>
+ 		</center>
+ 		<br/>
+ 		
+ 		<div id="pageContent" style="width:1000px; margin-left: auto; margin-right: auto;">
+ 		
+			<div class="tab">
+			  <button id = "renewTab" class="tablinks" data="renew">Renew Membership</button>
+			  <button id = "benefitsTab" class="tablinks" data="benefits">Membership Benefits</button>
+			</div>
+
+			<div id="renew" class="tabcontent">
+				<br>
+				<div id="renewReferral">
+					Referral code: <span id="refCode" style="font-weight:bold; font-size:18px;">Loading..</span> <button style="height:30px;border-width:1px;cursor:pointer;" id="copyCode">Copy Code</button><br/>
+					Give a free month of DNNae to your friends, you also get a free month when your friends signup using your code.<br/>
+					*Limited to a maximum of 90 free days.<br/>
+				
+				</div>
+				<br>
+				<div id="purchaseTable">
+		
+				<br><center><h3 style="color:gray";>Loading..</h3></center>
+		
+				</div>
+			</div>
+		
+			<div id="benefits" class="tabcontent">
+			<br>
+			<ul>
+				<li>Unlimited Use</li>
+				<li>Score Prospects: Unlimited</li>
+				<li>Export CSV: Unlimited</li>
+				<li>Automated meeting setup</li>
+				<li>Demographic AI</li>
+				<li>Best Fit AI</li>
+				<li>Experience Matching AI</li>
+				<li>Skills Matching AI</li>
+				<li>Pencilit Account included</li>
+				<li>Salary Prediction AI</li>
+			</ul>
+			<br>
+			</div>
+		
+		</div>
+		
+    	<center>
+    	<div id="dropin-container" style="width:600px;">
+    	
+    	</div>
+    	<div id="dropin-status">
+    	
+    	</div>
+    	<br><button class="imperfectThin btn PanelBtn hide" id="paymentButton"  style="width:200px; height:40px;">Pay</button>
+    
+    	</center>
+    	<center>
+			<div id="restore-div" style="width:600px;">
+		
+				<a href = "javascript:void(0)" id="restoreS" > Restore Membership </a> <br> <br>
+		
+			</div>
+    	</center>
+    	
+    </div>
+    
+    <div class="imperfect_font"><div id='snackbar'>.</div></div>
+    
+    <script src="../js/myscript.js"></script>
+        
+    <script src="../js/background.js"></script>
+
+    <script src="../js/content_scripts.js"></script>
+    
+    <script src="../js/buy.js"></script>
+    
+    <script src="../js/purchase.js"></script>
+    	
+    </body>
+
+</html>
+

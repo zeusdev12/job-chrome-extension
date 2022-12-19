@@ -1,0 +1,104 @@
+.tribe-members-container{
+    width:84%;
+    display:flex;
+    align-items: center;
+    margin:10px 8% 0px 8%;
+    flex-wrap: wrap;
+    z-index:3;
+}
+.tribe-member-card{
+    background: #F8F9FA;    
+    margin: 0px 0px 2% 2%;
+    border: 1px solid #E6E9ED;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width:30.8%;
+    height:264px;
+    border-radius:8px;
+    display:flex;
+    flex-direction: column;
+    padding:16px;
+
+}
+.tribe-member-card-details{
+    word-break: 'break-word';
+    display:flex;
+    flex-direction: column;
+    height:70px;
+}
+.tribe-member-card-details>div>.inner{
+    display:flex;
+    align-items:center;
+    padding-top:10px;
+    justify-content: space-between;
+}
+.details-and-trash{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+}
+.tribe-member-card-details>.details-and-trash>.inner>img{
+    width: 18%
+}
+.tribe-member-card-details>.details-and-trash>.inner>div{
+    width: 80%;
+}
+.tribe-member-card-picture{
+    width:50px;
+    margin-left: -5px;
+    height: 50px;
+    border-radius: 50%;
+}
+.tribe-member-card-name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2E2E2E;
+}
+.tribe-member-card-email{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #A7ABB0;
+}
+.tribe-member-card>p{
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2E2E2E;
+}
+.toggle-text-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:30px;
+    justify-self: flex-end;
+}
+.toggle-text-container>span
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+.tribe-trash{
+    width:24px;
+    height:24px;
+    cursor:pointer;
+}
+.tribe-trash-dd{
+    width:100px;
+    height:10px;
+    z-index:10;
+    position: absolute;
+    margin-left: -130px;
+}
+.trash-container{
+   width:5%;
+}

@@ -1,0 +1,60 @@
+.add-label{
+    font-size: 16px;
+    color: #A7ABB0;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.add-label:hover{
+    color: #2E2E2E;
+}
+
+.new-label{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    align-items: center;
+}
+
+.new-label > input {
+    border: 1px solid #E6E9ED;
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 85%;
+}
+
+.new-label > div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.new-label > div > img {
+    cursor: pointer;
+
+}
+.job-label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:50%;
+}
+.job-label > p {
+    /* width: 70%; */
+    margin:0
+}
+
+.job-label > div {
+    display: flex;
+    width: 40px;
+    justify-content: space-around;
+    width: 36px;
+    margin-left: 16px;
+    
+}
+
+.job-label > div > img {
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+}

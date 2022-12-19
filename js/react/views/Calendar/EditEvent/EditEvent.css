@@ -1,0 +1,136 @@
+html, body, #dn-root {
+    /* height: 100% !important; */
+    font-family: Inter;
+}
+
+.editEvents .row {
+    height: 100%;
+}
+
+.container-fluid {
+    height: calc(100% - 64px);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.saveChanges {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.5px 16px;
+
+    width: 143px;
+    height: 36px;
+    left: 1316px;
+    top: 148px;
+
+    background: #297AF7;
+    color: white;
+    
+    border: 1px solid #297AF7;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.editEventHeading {
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2E2E2E;
+}
+
+.content {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+
+.leftHeading {
+    min-width: 180px;
+    padding: 5px;
+}
+
+.rightContent {
+    background: #F5F6F7;
+    min-width: 250px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* .contentContainer {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.inputBoxes {
+    border: 1px solid #CDD1D7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    background: #F5F6F7;
+}
+
+.dateInput input.react-datepicker-ignore-onclickoutside, .dateInput .react-datepicker-wrapper input[type="text"] {
+    width: 160px;
+    border: 1px solid #CDD1D7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    background: #F5F6F7;
+}
+
+.timeInput input.react-datepicker-ignore-onclickoutside, .timeInput .react-datepicker-wrapper input[type="text"] {
+    width: 80px;
+    border: 1px solid #CDD1D7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    background: #F5F6F7;
+}
+
+.iconButton {
+    width: 36px;
+    height:36px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #E6E9ED;
+    margin-right: 5px;
+}
+
+.timeInput li.react-datepicker__time-list-item.react-datepicker__time-list-item--disabled, .timeSettingsInput li.react-datepicker__time-list-item.react-datepicker__time-list-item--disabled {
+    display: none;
+}

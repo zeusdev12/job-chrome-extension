@@ -1,0 +1,48 @@
+.header-root{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.header-root > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85px;
+}
+
+.header-root > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    
+}
+
+.header-root > div > img{
+    width: 24px;
+    height: 24px;
+}
+
+.profile-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    align-items: center;
+    position: relative;
+}
+ .profile-icon > img:nth-child(1){
+     width: 32px;
+     height: 32px;
+ }
+
+ .profile-icon > img:nth-child(2){
+     cursor: pointer;
+ }
+
+ .dd-container{
+    position: absolute;
+    right: 0;
+    top: 40px;
+ }

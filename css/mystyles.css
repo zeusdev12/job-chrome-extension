@@ -1,0 +1,387 @@
+.PanelBtn{
+    background-color: dodgerblue;
+    color: aliceblue;
+    font-weight: 500;
+    margin: 5px;
+    padding: 7px;
+}
+
+
+.PanelBtn:hover{
+    color: aliceblue;
+}
+
+.floatR{
+    float: right;
+
+}
+
+.floatL{
+	margin-top: 5px;
+    float: left;
+
+}
+
+.job{
+    background: #eee;
+    padding: 5px;
+    color: #555;
+    
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+        .col-1{width: 10%;padding: 5px;}
+.col-2{width: 20%;padding: 5px;}
+.col-3{width: 30%;padding: 5px;}
+.col-4{width: 40%;padding: 5px;}
+.col-5{width: 50%;padding: 5px;}
+.col-6{width: 60%;padding: 5px;}
+.col-7{width: 70%;padding: 5px;}
+.col-8{width: 80%;padding: 5px;}
+.col-9{width: 90%;padding: 5px;}
+.col-10{width: 80%;padding: 5px;}
+.col-11{width: 110%;padding: 5px;}
+.panel{
+    padding: 10px;
+}
+.txt-center{text-align: center;}
+.list-box{
+        margin-top: 10px;
+
+}
+            .list-box img.avatar{
+                overflow: hidden;
+                border-radius: 50%;cursor: pointer;;
+                    width: 75px;
+                height: 75px;
+                margin-top: 2px;
+                
+                background-color: #fff;
+            }
+            .list-box .name{
+                font-weight: bold;
+                    font-size: 18px;
+            }
+            .fl{float: left}
+            .fr{float: right;}
+
+.list-box2{
+        margin-top: 2px;
+
+}
+            .list-box2 img.avatar{
+                overflow: hidden;
+                border-radius: 50%;
+                    width: 75px;
+                height: 75px;
+                margin-top: 2px;
+                
+                background-color: #fff;
+            }
+            .list-box2 .name{
+                font-weight: bold;
+                    font-size: 18px;
+            }
+ 
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbarPop {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 300px; /* Set a default minimum width */
+  margin-left: -150px; /* Divide value of min-width by 2 */
+  background-color: gray; /* background color */
+  color: white; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 10; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  top: 50%; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbarPop.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+  However, delay the fade out process for 2.5 seconds */
+  /*-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;*/
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbarPop2 {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 300px; /* Set a default minimum width */
+  margin-left: -150px; /* Divide value of min-width by 2 */
+  background-color: CornflowerBlue; /* background color */
+  color: white; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 10; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  top: 50%; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbarPop2.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+  However, delay the fade out process for 2.5 seconds */
+  /*-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;*/
+}
+
+.navbar {
+  overflow: visible;
+  background-color: #f8f8f8;
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: visible;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /*background-color: gray;*/
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-size: 14px;
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown.active .dropdown-content {
+  display: block;
+  left:auto;
+  right:0;
+}
+
+.both-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.imperfect
+{
+	/*border-top-left-radius: 255px 15px;*/
+	/*border-top-right-radius: 15px 225px;*/
+	/*border-bottom-right-radius: 225px 15px;*/
+	/*border-bottom-left-radius:15px 255px;*/
+	border: solid 2px #444;
+
+}
+
+.imperfectThin
+{
+	/*border-top-left-radius: 255px 15px;*/
+	/*border-top-right-radius: 15px 225px;*/
+	/*border-bottom-right-radius: 225px 15px;*/
+	/*border-bottom-left-radius:15px 255px;*/
+	border: solid 1px #444;
+
+}
+
+@font-face {
+  font-family: imperfectFont;
+  src: url("../fonts/SourceSansPro-Regular.otf");
+}
+
+.imperfect_font {
+  font-family: imperfectFont;
+}
+
+.dropdownInv.active .dropdown-content {
+  display: block;
+  left:auto;
+  right:auto;
+}
+
+.selectMinimal {
+	/* styling */
+  background-color: white;
+  border: thin solid black;
+  border-radius: 0px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  /* reset */
+
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select {
+	/* styling */
+  background-color: white;
+  border: thin solid black;
+  border-radius: 0px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  /* reset */
+
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+.selectMinimal2 {
+	/* styling */
+  background-color: white;
+  border: thin solid black;
+  border-radius: 0px;
+  display: inline-block;
+  font: inherit;
+  
+}
+
+
+#otherSkillsArray{
+  height: 400px;
+    border: 1px solid black;
+    overflow: auto;
+    padding: 24px 12px;
+    border-radius: 5px;
+}

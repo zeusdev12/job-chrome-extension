@@ -1,0 +1,67 @@
+.sendmsg-root{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.sendmsgg-content{
+    width: 500px;
+    position: relative;
+    padding:20px;
+    border: 1px solid #E6E9ED;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.sendmsg-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sendmsg-title {
+    font-size: 18px;
+    font-weight: bold;
+    display:flex;
+}
+
+.icon-meta{
+    position: absolute;
+    margin-left: 10px;
+    top: 22px;
+}
+
+.recepient{
+    width: 100%;
+    padding: 12px;
+    background-color: #F5F6F7;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recepient > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: baseline;
+}
+
+.recepient-info{
+    width: 80%;
+}
+
+.recepient-info > p:first-child{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+}
+
+.recepient-info > p:last-child {
+    font-size: 16px;
+    line-height: 23px;
+    color: #A7ABB0;
+    margin: 0;
+}

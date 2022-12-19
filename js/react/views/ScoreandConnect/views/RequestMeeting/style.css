@@ -1,0 +1,723 @@
+/* p, h1, h2, h3, h4, h5, h6{
+    margin: 0px
+} */
+
+.requestMessageHead{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E6E9ED;
+    padding: 0px;
+    margin: 0px;
+    background: #FFFFFF;
+    /* border: 1px solid #E6E9ED; */
+    box-sizing: border-box;
+    /* border-radius: 8px; */
+}
+.top-label-container-meeting > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+.top-label-container-meeting > span > div > h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E2E2E;
+    margin-bottom: 4px;
+}
+.top-label-container-meeting > span > div > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2E2E2E;
+    margin: 0px;
+}
+.requestBackButton{
+    margin-right: 12px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+}
+.sendMessageButton{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 146px;
+    height: 42px;
+    border-radius: 8px;
+}
+.checkBox{
+    position: relative;
+    margin: 0;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+}
+.requestMessageBody{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.requestMessageHead > div > h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E2E2E;
+}
+.requestMessageHead > div > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+.requestMessageCheckboxContainer{
+
+}
+.requestMessageHeadingContainer{
+    display: flex;
+    margin: 0px;
+    width:70%;
+    
+}
+.requestMessageHeadingContainer  >div h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E2E2E;
+}
+.messsageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 50px 0px;
+}
+.ReqMsgTagHeading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E2E2E;
+    margin-left: 0px;
+    margin-top: 58px;
+}
+.RegMsgTagTabsContainer{
+    margin-left: 0px;
+    margin-top: 8px;
+    width: 68%;
+}
+.ReqMsgTagButtonsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    /* margin-left: 38px; */
+    background: #FFFFFF;
+    border: 1px solid #CDD1D7;
+    box-sizing: border-box;
+    border-radius: 0px 8px 8px 8px;
+    width: 68%;
+}
+.inputMessageContainer{ 
+    height: 196px;
+    flex: 1 522px;
+    margin: 0px;
+    margin-right: 34px;
+}
+.resumeStopButton{
+    margin-right: 16px;
+}
+.messageInputTextArea{
+    margin: 30px 0px 0px 0px;
+    padding: 11px 16px 23px 16px;
+    height: 100% !important;
+    width: 70%;
+    border: 1px solid #CDD1D7;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.messageInputTextAreaFlash{
+    border-color: red !important;
+    box-shadow: 0 0 0 0.2rem rgba(255,0,0,.25) !important;
+}
+/* .messageInput{
+    margin: 30px 0px 0px 0px;
+    padding: 11px 16px 23px 16px;
+    height: 100% !important;
+    width: 100%;
+    border: 0px solid;
+    background-color: #F8F9FA !important;
+    border-radius: 8px;
+} */
+.outputMessageContainer{
+    height: 196px;
+    flex: 1 522px;
+    margin: 0px;
+}
+.infoTag{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A7ABB0;
+}
+.messageOutput{
+    margin: 0px;
+    padding: 11px 16px 23px 16px;
+    height: 100% !important;
+    width: 100%;
+    border: 0px solid;
+    background-color: #F8F9FA !important;
+    border-radius: 8px;
+}
+.tagsContainer{
+    display: flex;
+    padding: 0px;
+    padding-left: 38px;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    margin: 6px 6px;
+    padding: 2px 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    border: 0px solid;
+    background: #F5F6F7;
+    border-radius: 8px;
+}
+.tagPlus{
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 8px;
+    font-size: 22px;
+    color: #A7ABB0;
+    text-decoration: none;
+}
+.tagPlus:hover{
+    text-decoration: none;
+    color: #A7ABB0;
+}
+/* hr{
+    margin: 0px;
+    margin-top: 16px;
+} */
+.selectTime{
+    padding: 4px 8px;
+    margin: 8px 0px;
+    margin-bottom: 0px;
+    border: 1px solid #CDD1D7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+}
+.selectTime:hover{
+    color: #2E2E2E;
+    border: 1px solid #A7ABB0;
+    background: none;
+}
+.selectTime:active{
+    color: #2E2E2E;
+    background-color: none;
+    outline: none;
+}
+.selectTime:focus{
+    outline: none;
+    box-shadow: none;
+}
+.dropDownTimeToggle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #2E2E2E;
+    margin: 0px;
+}
+.caret{
+    margin-left: 12px;
+    margin-right: 2px;
+    margin-top: 8px;
+}
+.dropDownTimes, .dropDownTimes:active, .dropDownTimes:focus{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 8px;
+}
+.dropDownTimes:hover{
+    border: none;
+    outline: none;
+}
+
+.accountIntegrationPanel{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.boxTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    color: #2E2E2E !important;
+    min-width: 350px;
+}
+.MeetingStepInfoTag {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2E2E2E;
+    text-align: center;
+}
+.zoomMeetingIntegrationStepConatiner{
+    display: flex;
+
+}
+.zoomMeetingIntegrationStepOptionalTag{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #A7ABB0;
+    margin-left: 4px;
+
+}
+
+.skipZoomMeetingLink{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px;
+    font-style: normal;
+    color: #A7ABB0;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;    
+}
+
+.skipZoomMeetingLink:hover{
+    font-style: normal;
+    color: #A7ABB0;
+    cursor: pointer;
+}
+
+
+
+.boxTitle h4 {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    /* top: 281px; */
+    color: #2e2e2e;
+    text-align: center;
+}
+.boxTitle h1 {
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: bold;
+    bottom: 100px;
+}
+.vertical-center {
+    min-height: 60vh;
+    padding-top: 32px;
+}
+.boxTitle p {
+    margin-bottom: 8px;
+}
+.boxTitle u:hover{
+    cursor: pointer;
+}
+.boxTitle >  label {
+    font-size: 14px;
+    line-height: 23px;
+    color: #2E2E2E;
+    margin: 0px 0px 16px 0px;
+}
+.boxTitle input {
+    background: #F5F6F7;
+    border-radius: 7px;
+    margin-left: 4px;
+}
+.input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child) {
+     border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.integrationSubmitButton {
+    bottom: 0;
+    right: 0;
+    float: right;
+    margin-top: 49px;
+}
+#submitIntegrationForm{
+    margin-right: 0;
+    padding: 9px;
+}
+.socialLoginButton {
+    width: 320px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 500;
+    /* top: 68%; */
+    border: 1px solid #297AF7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 14px;
+    display: block;
+    text-decoration: none;
+}
+.socialLoginButton:hover {
+    text-decoration: none;
+    color: #007bff;;
+}
+/* a {
+    text-decoration: none !important;
+} */
+.btnConfigureMeeting{
+    display: inline!important;
+    position: absolute;
+    padding-left: 4%;
+    margin-top: -5px;
+    margin-left: 22px;
+
+}
+.calendarIcon {
+    float: left;
+    margin: 0% -8% 0% 4%;
+}
+.LoaderRequestMeeting {
+    text-align: center;
+    margin-top: 10%;
+}
+.requestMessageDropDownContainer{
+    width:94%
+}
+
+.requestMessageDropDownContainer > div > div{
+    min-width: 232px;
+}
+
+.requestMessageContainer .react-tabs__tab-list {
+    background-color: #FFFFFF;
+    height: 46px;
+}
+
+.preEvalTabsSeperator{
+    /* border-bottom: 1px solid #E6E9ED !important; */
+    display: flex;
+    margin: 0px;
+    /* position: absolute; */
+    top: 50%;
+    /* left: 43%; */
+    min-width: 32px;
+}
+.preEvalTabContainer{
+   
+}
+.preEvalTabs{
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+    border-bottom: 1px solid #E6E9ED;
+}
+.preEvalTabs > .react-tabs__tab {
+    display: inline-block;
+    /* border-bottom: none; */
+    /* bottom: -1px; */
+    border-bottom: 1px solid #E6E9ED !important;
+    color: GrayText;
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    max-width: 250px;
+    line-height: 30px !important;
+}
+
+.preEvalTabs > .react-tabs__tab:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.preEvalTabs > .react-tabs__tab:focus:after {
+    height:0px !important;
+}
+
+
+.preEvalTabs > .react-tabs__tab--selected {
+    /* font-weight: 600; */
+    color: #000000 !important;
+}
+.preEvalTabPanelConatiner{
+    padding: 25px 11%;
+}
+.meetingTimeTabPanelConatiner{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.meetingTypeLable{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    /* text-align: center; */
+    color: #2E2E2E;
+    margin: 0px 0x 16px 0px;
+}
+.meetingTypeButtonsContainer{
+    display: flex;
+}
+
+.meetingTypeButtonsContainer > span {
+    display: flex;
+    align-items: center;   
+    padding: 0px 16px;
+}
+.meetingTypeButtonsContainer > span > a{   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: right;
+    color: #297AF7 !important;
+    cursor: pointer;
+}
+.meetingTypeButtonsContainer > button{    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10.5px 16px;
+    /* text-align: center; */
+    border-radius: 8px;
+    color: #297AF7;
+    /* margin: 0px 16px 0px 0px; */
+
+}
+.preEvalFormConatiner{
+
+}
+.preEvalFormHeader{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 16px;
+}
+.preEvalFormHeader > h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2E2E2E;
+    margin: 0px;
+}
+.preEvalFormBody{
+    border: 1px solid #E6E9ED;
+    border-radius: 8px;
+    margin: 0px 10% 0px 10%;
+}
+.preEvalFormTextAreaContainer{
+    border-bottom: 1px solid #E6E9ED;
+}
+.preEvalFormQuestionTextArea{
+    display: flex;
+    align-items: center;
+    width: calc(100% - 32px); 
+    height: auto;
+    border-color: transparent;
+    border-radius: 8px; 
+    background-color: #F5F6F7; 
+    padding: 10px 16px;
+    margin: 16px; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #2E2E2E;
+    
+}
+.preEvalFormQuestionTextArea::placeholder{
+    color: #A7ABB0;
+}
+.preEvalFormAnswerTextArea{
+
+    display: flex;
+    align-items: center;
+    width: calc(100% - 32px); 
+    height: auto;
+    border-color: #E6E9ED;
+    border-radius: 8px; 
+    background-color: #FFFFFF; 
+    padding: 10px 16px;
+    margin: 16px; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #2E2E2E;
+}
+.preEvalFormAnswerTextArea::placeholder{
+    color: #A7ABB0;
+}
+
+
+.preEvalForm{
+    display: flex; 
+    flex-direction: column;
+}
+
+.preEvalFormQuestionContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.preEvalQuestionListContainer{
+    border-bottom: 1px solid#E6E9ED;
+}
+
+
+.prevEvalShortMenuContainer{
+    position: relative;
+    
+}
+.prevEvalShortMenu{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 32px;
+    right: -45px;
+    border-radius: 8px;
+    border: 1px solid #E6E9ED;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 12%);
+    border-radius: 8px;
+    min-width: 211px;
+}
+.prevEvalShortMenu > button{
+    display: flex;
+    color: #2E2E2E;
+    padding: 16px !important;
+    border: none !important;
+}
+.prevEvalShortMenu> button:hover{
+    background-color: #F5F6F7;
+}
+.prevEvalShortMenu > button:focus{
+    outline: none;
+}
+.prevEvalShortMenu > button > img{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.addPreEvalQuestionContainer{    
+    display: flex;
+    /* flex-direction: column; */
+    align-content: center;
+    justify-content: center;
+    min-height: 360px;
+}
+
+.addPreEvalQuestionContainer > button > img{
+    padding-top: 8px;
+}
+.addPreEvalQuestionContainer > button{   
+    display: flex;
+    flex-direction: column;
+    height: 64px;
+    /* top: 180px; */
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #2E2E2E;
+    padding: 8px;
+    margin-top: 148px;
+    border: none !important;
+    outline: none !important;
+
+}
+.preEvalFormRequired{
+    display: flex;
+    align-items: center;
+    color: #2E2E2E;
+    padding: 0px;
+    border: none !important;
+    outline: none !important;
+    margin-right: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+
+.preEvalFormControlSeperator{    
+    display: flex;
+    align-self: center;
+    margin: 4px 5px 0px 0px;
+    width: 24px;
+    transform: rotate(90deg);
+}
+
+.addOption:hover {
+    background-color: white;
+    color: black;
+}
+
+.addOption {
+    color: black;
+}
+.top-label-container-meeting{
+    display:flex;
+    align-items:center;
+    height:96px;
+    padding:0px 164px 0px 164px;
+    background-color: #F8F9FA;
+    border: 1px solid #E6E9ED;
+    justify-content: space-between;
+}
+.secondary-label-container-meeting{
+    display:flex;
+    align-items:center;
+    height:90px;
+    padding:0px 10% 0px 10%;
+    background-color: white;
+    border: 1px solid #E6E9ED;
+    justify-content: space-between;
+}

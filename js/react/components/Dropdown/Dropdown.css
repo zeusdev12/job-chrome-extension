@@ -1,0 +1,13 @@
+.dd-root{
+    padding: 8px 0;
+    border: 1px solid #E6E9ED;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    border-radius: 8px;
+    min-width: 150px;
+}
+
+.dd-root > p:last-child{
+    margin-bottom: 0;
+}

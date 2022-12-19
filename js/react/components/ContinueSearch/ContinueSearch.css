@@ -1,0 +1,91 @@
+.continue-search-root {
+    /* display: flex; */
+    padding-top: 90px;
+    text-align: center;
+    height: 500px;
+}
+
+
+.continue-search-content{
+    width: 600px;
+    margin: auto;
+}
+
+.continue-search-content > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+
+    /* colors/body-grey */
+
+    color: #2E2E2E;
+}
+
+.continue-search-content > a > button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #297AF7;
+    font-weight: bold;
+    cursor: pointer;    
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+.pin-extension-widget{
+    width: 420px;
+    text-align: left;
+    margin: auto;
+}
+
+.pin-extension-widget > ol{
+    margin-top: 0;
+    padding-left: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.pin-extension-widget > ol > li {
+    margin-bottom: 12px;
+}
+
+.pin-extension-widget > ol > li > img {
+    width: 18px;
+    height: 18px;
+}
+.pin-extension-widget > p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 32px;
+    line-height: 22px;
+}
+
+
+.pin-icon {
+    height: 23px !important;
+}
+
+.arrow-up-icon {
+    position: absolute;
+    top: 6%;
+    right: 0%;
+    width: 250px;
+    animation: indication 2s linear infinite;
+}
+
+@keyframes indication {
+    0%   {top: 6%;}
+    12.5%  {top: 5%;}
+    25%  {top: 4%;}
+    37.5%  {top: 3%;}
+    50% {top: 2%;}
+    62.5% {top: 3%;}
+    75% {top: 4%;}
+    87.5% {top: 5%;}
+    100% {top: 6%;}
+    
+}

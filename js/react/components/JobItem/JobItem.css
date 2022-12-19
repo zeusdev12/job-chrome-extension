@@ -1,0 +1,76 @@
+.job-item{
+    width: 320px;
+    /* height: 172px; */
+    border-radius: 8px;
+    border: 1px solid #E6E9ED;
+    box-sizing: border-box;
+    padding: 20px 16px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.job-item > p {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0;
+}
+.job-item > .job-item-label{
+    margin-bottom: 6px;
+    /* margin-top: -6px; */
+    font-weight:normal;
+    font-size: 16px; 
+    color: #A7ABB0; 
+}
+.job-item-head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.job-item-head > h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2E2E2E;
+    margin: 0;
+} 
+
+.job-item-head > img {
+    cursor: pointer;
+}
+
+.job-item-actions {
+    display: flex;
+    margin-top: 12px;
+}
+
+.job-item-actions > button {
+    flex-grow: 1;
+    border: 1px solid #297AF7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #297AF7;
+    font-size: 12px;
+    height: 36px;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+}
+
+.job-item-actions > button:hover{
+    border: 1px solid #216BDE;
+    color: #216BDE;
+}
+
+.job-item-actions > button:last-child {
+    margin-left: 12px;
+}
+
+.dd-options-container {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 99999;
+}

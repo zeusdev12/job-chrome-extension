@@ -1,0 +1,172 @@
+.revise-jd-root{
+    min-height: 560px;
+    width: 100%;
+    display: flex;
+    padding: 16px 32px;
+    flex-wrap: wrap;
+}
+.revise-jd-root-container{
+    margin-left:10%;
+    margin-right:10%;
+}
+.revise-heading{
+    height: 66px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #E6E9ED;
+    line-height: 22px;
+    color: #2E2E2E;
+    padding: 0 32px;
+}
+
+.revise-footer{
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 1px solid #E6E9ED;
+    line-height: 22px;
+    color: #2E2E2E;
+    padding: 0 32px;
+}
+
+.revise-footer > p {
+    margin: 0;
+    margin-left: 42px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    cursor: pointer;
+    color: #2E2E2E;
+}
+
+.revise-footer > button, .revise-footer > button:active, .revise-footer > button:focus  {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #297AF7;
+    font-weight: bold;
+    /* margin-top: 30px; */
+    margin-left: 42px;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    border: 1px solid #297AF7;
+    outline: none;
+    color: white;
+    min-width: 118px;
+    min-height: 40px;
+
+}
+.revise-footer > button:hover{
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #216BDE;
+    font-weight: bold;
+    /* margin-top: 30px; */
+    margin-left: 42px;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    border: 1px solid #216BDE;
+    outline:none;
+    color: white;
+    min-width: 118px;
+    min-height: 40px;
+
+}
+
+.job-title-ip{
+    border: 0px solid #CDD1D7;
+    box-sizing: border-box;
+    background: #F5F6F7;
+    border-radius: 8px;
+    width: 420px;
+    height: 42px;
+    padding: 16px;
+    /* margin-bottom: 32px;*/
+}
+
+.additional-titles{
+    background: #FFFFFF;
+    /* border: 1px solid #E6E9ED; */
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 16px 0px ;
+
+}
+
+.chips-container{
+    min-height: 47px;
+}
+
+.add-title{
+    /* margin-top: 50px; */
+    width: 100%;
+    border-top: 1px solid #E6E9ED;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.add-title > span {
+    display: inline-block;
+    margin-left: 16px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #297AF7;
+    cursor: pointer;
+}
+.jd-bottomBorder{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.autosuggest-location-suggestions-container{
+    
+    /* border-radius: 4px; */
+    background-color: white;
+    width: 420px;
+
+    position: absolute;
+}
+.autosuggest-location-suggestions-container > ul{
+    border: 1px solid #E6E9ED;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    padding-left: 0;
+    max-height: 268px;
+    overflow: auto;
+}
+.locationChipsContainer{
+    width: 90%;
+    min-height: 47px;
+    margin: 0px;
+    padding: 8px 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.locationChip{
+    border-color: transparent;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    line-height: 15px;
+    padding: 8px;
+    display: inline-block;
+    margin: 0 8px 8px 0;
+    background: rgba(41, 122, 247, 0.05);
+}

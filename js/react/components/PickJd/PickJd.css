@@ -1,0 +1,90 @@
+.pick-jd-root{
+    height: 560px;
+    width: 100%;
+    display: flex;
+}
+
+.pick-jd-root-container{
+    margin-left:10%;
+    margin-right:10%;
+
+}
+.jd-sidebar-root{
+    width: 260px;
+    height: 100%;
+    border-right: 1px solid #E6E9ED;
+    overflow: auto;
+
+}
+
+.jd-sidebar-item{
+    width: 100%;
+    padding: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 20px 10px 20px 24px;
+    cursor: pointer;
+}
+
+.jd-sidebar-item:hover{
+    background-color: rgba(41, 122, 247, 0.05);
+}
+
+.jd-sidebar-item-active{
+    background-color: rgba(41, 122, 247, 0.05);
+    border-left: 4px solid #297AF7;
+    padding-left: 20px;
+}
+
+.jd-text{
+    padding: 24px;
+    flex-grow: 1;
+}
+
+.jd-text > textarea {
+    overflow: auto;
+    resize: vertical;
+    border: 1px solid #CDD1D7;
+    width: 100%;
+    height: 420px;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.jd-text > textarea::placeholder {
+    text-align: center;
+    padding-top: 175px;
+}
+
+.jd-text > button, .jd-text > button:active, .jd-text > button:focus {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #297AF7;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    border: 1px solid #297AF7;
+    outline: none;
+    color: white;
+    min-width: 164px;
+    min-height: 40px;
+}
+.jd-text > button:hover {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #216BDE;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    border: 1px solid #216BDE;
+    outline: none;
+    color: white;
+    min-width: 164px;
+    min-height: 40px;
+}

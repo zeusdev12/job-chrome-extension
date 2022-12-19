@@ -1,0 +1,118 @@
+.job-view{
+    display:flex;
+    flex-direction:column;
+}
+.job-top-container{
+    height:153px;
+    background-color: #F8F9FA;
+}
+.job-top-container>div{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+.job-title-add-prospects{
+    display:flex;
+    justify-content: space-between;
+    margin:0px 32px 0px 32px;
+}
+.job-title-add-prospects>div{
+    display:flex;
+}
+.job-view-back-button{
+        margin-right: 12px;
+        margin-left: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        border-color: #A7ABB0;
+        background-color: white;
+        color:#A7ABB0;
+    
+}
+.job-view-back-button:hover{
+    border-radius: 8px;
+    border-color: #A7ABB0;
+    background-color: white;
+    color:#A7ABB0;
+
+}
+.job-view-title-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left:10px;
+    color: #2E2E2E;
+}
+.job-view-add-prospects{
+    width: 146px;
+    height: 42px;
+    left: 1208px;
+    top: 96px;
+    border-radius: 8px;
+    border: none;
+}
+.job-view-add-prospects>.text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.job-view-tabs-container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    height:100px;
+}
+.job-view-tabs-container>div{
+    display:flex;
+    align-items: center;
+}
+.tab-default{
+    font-style: normal;
+    margin-left:32px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    padding-bottom:12px;
+    display: flex;
+    align-items: center;
+    color: #2E2E2E;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+
+}
+.tab-default-active{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #297AF7; 
+    padding-bottom:16px;
+    border-bottom: 4px solid #297AF7;
+}
+.tab-default-inactive{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    /* colors/body-grey */
+    color: #2E2E2E;
+    display: flex;
+    align-items: center;
+}
+.job-label-top{
+    height:20%;
+    margin-left:6.7%
+}

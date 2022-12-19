@@ -1,0 +1,14 @@
+.note-meta {
+    display: flex;
+    justify-content: space-between;
+    color: #A7ABB0;
+    
+}
+
+.note-meta > div:nth-child(1){
+    display: flex;
+}
+
+.note-meta > div:nth-child(2){
+    cursor: pointer;
+}

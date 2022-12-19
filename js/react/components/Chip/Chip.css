@@ -1,0 +1,29 @@
+.chip{
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    line-height: 15px;
+    padding: 8px;
+    display: inline-block;
+    margin: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+.chip-selected{
+    background: rgba(41, 122, 247, 0.05);
+    /* border: 1px solid #297AF7; */
+    color: #297AF7;
+}
+
+.chip-unselected{
+    background: #F9FAFC;
+    /* border: 1px solid #A7ABB0; */
+    color: #2E2E2E;
+}
+
+.chip-disabled {
+    background: #F9FAFC;
+    /* border: 1px solid #A7ABB0; */
+    color: #2E2E2E;
+    opacity: 0.5;
+}

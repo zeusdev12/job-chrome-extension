@@ -1,0 +1,253 @@
+body{
+    font-family: inter;
+    background: #FFFFFF;
+}
+.mainSettingContainer{
+    display: flex;
+    flex-direction: column;
+}
+.settingHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 16px;
+    background: #F8F9FA;
+    border-bottom: 1px solid #E6E9ED;
+}
+.settingHeaderTitle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E2E2E;
+    margin: 0px;
+}
+.settingHeaderButtonsContainer{
+    display: flex;
+}
+.settingHeaderButtons{
+    margin: 0px 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 8px;
+}
+.settingBody{
+    display: flex;
+    height: calc(100vh - 82px - 64px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.settingTabSection{
+    background: #F8F9FA;
+    height: 100%;
+    width: 20%;
+    border-right: 1px solid #E6E9ED;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+}
+.settingTabContainer{
+}
+.settingTab{
+    padding: 12px 16px;
+    border-left: 4px solid transparent;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #2E2E2E;
+}
+.active.settingTab{
+    border-left-color: #297AF7;
+    background: #EEF3FB;
+    font-weight: 600;
+    color: #297AF7;
+}
+.settingTab:hover{
+    background: #297AF7;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.settingLimitSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+}
+.settingLimitHeader{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E2E2E;
+    border-bottom: 1px solid #E6E9ED;
+    padding: 24px 32px;
+}
+.settingLimitBody{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 32px;
+}
+.limitWarningContainer{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.limitWarning{
+    background: rgba(239, 21, 21, 0.1);
+    /* opacity: 0.1; */
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2E2E2E;
+    padding: 8px 100px;
+    margin: 0px;
+}
+.limitWarning > img{
+    margin: 0px 8px;
+}
+.LimitsContainer{    
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    
+}
+.LimitsCounterContainer{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-right: 64px;
+}
+.LimitsCounterLables {    
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    min-width: 284px;
+
+    
+}
+.limitSelector{
+    margin-left: 16px;
+    border-radius: 8px;
+    border: none;
+    width: 470px;
+}
+
+
+.limitSelector > button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: none !important;
+    background: #F5F6F7;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+.limitSelector > div{
+    width: 100%;
+}
+
+.limitSelectorItem{
+    border: none;
+    border-radius: 0px;
+    padding: 4px 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+
+.limitSelectorItem:hover, 
+.limitSelectorItem:focus,
+.limitSelectorItem:active{
+    background-color: #F5F6F7;
+    color: #2E2E2E;
+    border: none;
+}
+
+.limitSelectorDevider{
+    margin: 4px 0px;
+}
+
+
+.accountsList{
+    list-style: none;
+    padding: 0px;
+}
+.accountContainer{
+    display: flex;
+    align-items: center;
+    margin: 24px 0px;
+    height: 48px;
+}
+.iconContainer{
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+.accountIcon{
+    width: 32px;
+    height: 32px;
+}
+.accountLabel{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2E2E2E;
+    margin: 0px 8px;
+}
+.accountLabelContext{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    margin: 0px;
+}
+.accountTypeLabel{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    margin: 0px;
+    width: 130px;
+}
+.accountInput{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+    padding: 10px 16px;
+    /* width: 320px; */
+    width: 50%;
+    background: #F5F6F7;
+    border-radius: 8px;
+    border: none;
+    margin-right: 24px;
+}
+.unlinkLabel{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #297AF7;
+}

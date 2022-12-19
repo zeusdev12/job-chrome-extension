@@ -1,0 +1,64 @@
+.pin-prompt-root{
+    width: 400px;
+    /* height: 500px; */
+    /* background-color: white; */
+    text-align: right;
+    /* padding: 20px; */
+    z-index: 999999;
+    position: fixed;
+    top: 70px;
+    right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.dn-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 47px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.13), 0 6px 20px 0 rgba(0,0,0,.12);
+}
+
+.prompt-content{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 12px;
+    /* height: 350px; */
+    text-align: left;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.13), 0 6px 20px 0 rgba(0,0,0,.12);
+}
+
+.steps-ol{
+    padding-left: 18px;
+    margin-top: 16px;
+}
+
+.cta-bt{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 26px;
+    width: 80px;
+}
+
+.cta-bt:hover{
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    font-weight: bold;
+}
+
+.hide{
+    display: none;
+}

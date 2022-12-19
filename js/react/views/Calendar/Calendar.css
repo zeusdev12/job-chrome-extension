@@ -1,0 +1,788 @@
+html, body {
+    font-family: Inter;
+}
+
+.eventView {
+    padding: 10px 0 !important;
+    border-right: 1px solid #E6E9ED;
+}
+
+.calendarView {
+    padding-top: 14px !important;
+    margin-right: 0;
+    border-right: 1px solid #E6E9ED;
+}
+
+.eventDetails {
+    padding: 10px 0 !important;
+    height: 100%;
+    overflow: auto;
+}
+
+.calendarView .fc-toolbar-title, .calendarSettings .fc-toolbar-title {
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.eventView .fc-toolbar-title, .calendarSettings .fc-toolbar-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px !important;
+    line-height: 22px;
+    color: #2E2E2E;
+    margin: auto 10px auto 0 !important;
+}
+
+.fc-prev-button, .fc-next-button {
+    color: grey !important;
+    background-color: white !important;
+    height: 20px !important;
+    margin: auto 2px !important;
+    border: none !important;
+    padding: 0 !important;
+    color: #A7ABB0;
+}
+
+.calendarView .fc-prev-button {
+    margin-right: 8px !important;
+}
+
+.fc-icon-chevron-left, .fc-icon-chevron-right {
+    width: 12px !important;
+    height: 6px !important;
+    line-height: 0px !important;
+    font-size: 20px !important;
+}
+
+.fc-button-primary:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+.viewButton {
+    position: absolute;
+    right: 20px;
+    z-index: 2;
+    text-transform: capitalize;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8.5px 1px 10.5px 8px;
+    width:74px;
+
+    background: #FFFFFF;
+    border: 1px solid #A7ABB0;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    color: black;
+    background-color: white;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.fc-today-button, .fc-custom1-button, .fc-custom2-button {
+    text-transform: capitalize !important;
+    height: 36px;
+    width: 68px;
+    left: 768px;
+    top: 82px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.5px 16px;
+
+    background: #FFFFFF;
+    border: 1px solid #A7ABB0;
+    box-sizing: border-box;
+    border-radius: 8px !important;
+
+    color: black !important;
+    background-color: white !important;
+
+    font-family: Inter !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+
+    position: unset !important;
+    margin-right: 10px !important;
+}
+
+.fc-toolbar-chunk div {
+    display: inline-flex;
+}
+
+.eventView .fc-header-toolbar {
+    padding: 0 10px !important;
+    margin-bottom: 15px !important;
+}
+
+.calendarSettings .fc-header-toolbar {
+    padding: 0!important;
+    margin: 15px 10px;
+}
+
+.eventView .fc-view-harness {
+    background: #E5E5E5;
+}
+
+.calendarView .fc-daygrid-day-events {
+    display: none;
+}
+
+.calendarView td, .calendarView th, .calendarView table {
+    border: none !important;
+}
+
+.calendarView .fc .fc-daygrid-day-top {
+    display: block !important;
+    text-align: center !important;
+    height: 24px;
+    width: 24px;
+}
+
+.calendarView th a.fc-col-header-cell-cushion, .calendarSettings th a.fc-col-header-cell-cushion {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px !important;
+    line-height: 15px;
+    text-align: center;
+    color: #A7ABB0 !important;
+    cursor: context-menu;
+}
+
+.calendarView td a.fc-daygrid-day-number,  .calendarSettings td a.fc-daygrid-day-number {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px !important;
+    line-height: 15px;
+    text-align: center;
+    /* color: #2E2E2E; */
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.calendarView .fc-day-past a, .calendarView .fc-day-future a {
+    color: black;
+}
+
+
+
+.calendarView .fc .fc-daygrid-day.fc-day-today {
+    background: none !important;
+}
+
+.calendarSettings .fc .fc-daygrid-day.fc-day-today {
+    background: #EEF3FB !important;
+}
+
+.calendarView .fc-day-today .fc-daygrid-day-frame {
+    border-radius: 50%;
+    background: #EEF3FB;
+    height: 24px;
+    width: 24px;
+}
+
+.calendarView .fc-scrollgrid-sync-inner {
+    height: 24px;
+    width: 24px;
+}
+
+.divider {
+    width: calc(100% + 30px);
+    height: 0px;
+    border-bottom: 1px solid #E6E9ED;
+    left: -30px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.headingContainer {
+    padding: 0 10px !important;
+    height: 51px;
+    border-bottom: 1px solid #E6E9ED;
+}
+
+.eventHeading {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E2E2E;
+    line-height: 36px;
+}
+
+.contentContainer {
+    height: calc(100% - 61px);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meetingCount {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+
+.detailHeader {
+    /* height: 60px; */
+    border-bottom: 1px solid #E6E9ED;
+}
+
+.heading1 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2E2E2E;
+}
+
+.heading2 {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2E2E2E;
+}
+
+.clickEvent {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #A7ABB0;
+}
+
+.joinMeeting {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.5px 16px;
+
+    width: 110px;
+    height: 36px;
+    left: 1316px;
+    top: 148px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #297AF7;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.eventView .fc-timegrid-slot-label-cushion, .calendarSettings .fc-timegrid-slot-label-cushion {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A7ABB0;
+}
+
+.eventView .fc-direction-ltr .fc-timegrid-slot-label-frame, .calendarSettings .fc-direction-ltr .fc-timegrid-slot-label-frame {
+    text-align: center !important;
+    padding: 10px 0;
+}
+
+.textDivider {
+    color: #E6E9ED;
+    padding: 0 5px;
+}
+
+.calendarSettings .fc-v-event, .calendarSettings .fc-daygrid-event {
+    background: #FFFFFF !important;
+    border: 1px solid #CDD1D7 !important;
+    box-sizing: border-box !important;
+    border-radius: 8px !important;
+    color: #2E2E2E !important;
+}
+
+.eventView .fc-v-event, .eventView .fc-daygrid-event {
+    background: #FFFFFF !important;
+    box-sizing: border-box !important;
+    border-radius: 8px !important;
+    padding: 0 !important;
+}
+
+.fc-timegrid-event .fc-event-main {
+    color: black !important;
+    display: flex !important;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.fc-timeGridWeek-view .fc-event-main {
+    color: black !important;
+    display: flex !important;
+    margin: auto;
+    flex-direction: column;
+}
+
+.fc-daygrid-event .fc-event-main {
+    color: black !important;
+    display: flex !important;
+    margin: auto;
+    flex-direction: column;
+}
+
+.eventView .week div, .eventView .month div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 7px;
+    text-align: center;
+}
+
+.calendarSettings .week div, .calendarSettings .month div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 11px;
+    text-align: center;
+}
+
+.eventView .fc .fc-timegrid-now-indicator-container {
+    overflow:unset !important;
+}
+
+.eventView .fc .fc-timegrid-now-indicator-arrow {
+    display: none !important;
+}
+
+.eventView .fc .fc-timegrid-now-indicator-line {
+    border-color: #FFC321 !important;
+}
+
+/* .eventView .fc-theme-standard td, .fc-theme-standard th {
+    border: none !important;
+} */
+
+.eventView td.fc-timegrid-slot.fc-timegrid-slot-lane {
+    border-bottom: 1px solid #E6E9ED !important;
+    border-left: 0;
+}
+
+.react-tabs__tab {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    border: unset !important;
+    border-bottom: 1px solid #E6E9ED !important;
+}
+
+.calendarSettings .react-tabs__tab--selected {
+    font-weight: 600;
+    color: #000000 !important;
+    background: #F5F6F7 !important;
+}
+
+.react-tabs__tab-list {
+    border-bottom: 0px !important;
+}
+.loaderCalender{
+    min-width: 800px;
+    height: 100vh;
+    text-align: center !important;
+    margin-top: 20%;
+}
+
+.iconButton {
+    width: 36px;
+    height:36px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #E6E9ED;
+}
+
+.mainHeading {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+
+.subHeading {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    color: #A7ABB0;
+}
+
+.messageContainer {
+    background: #F5F6F7;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #2E2E2E;
+}
+
+.messageSubContainer {
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.eventView a.fc-col-header-cell-cushion {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A7ABB0;
+    font-weight: 600;
+}
+
+.eventView a.fc-daygrid-day-number {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2E2E2E;
+}
+
+.eventView .fc-day-today .fc-daygrid-day-number, .calendarSettings .fc-day-today {
+    color: #297AF7;
+    font-weight: 600;
+}
+
+.eventView .fc .fc-daygrid-day.fc-day-today, .calendarSettings .fc .fc-daygrid-day.fc-day-today{
+    border-top: 4px solid #297AF7 !important;
+}
+
+.eventView th.fc-col-header-cell.fc-day.fc-day-sat.fc-day-today div, .calendarSettings th.fc-col-header-cell.fc-day.fc-day-sat.fc-day-today div {
+    border-top: 4px solid #297AF7 !important;
+}
+
+.eventView th.fc-col-header-cell.fc-day.fc-day-sat.fc-day-today a {
+    color: #297AF7;
+    font-weight: 600;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.skillLabel {
+    background-color: rgb(230, 233, 237);
+    display: inline-flex;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.dateStyle {
+    font-size: 13px;
+    min-width: 120px;
+}
+
+.experienceStyle {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.detailsTitles {
+    font-size: 13px;
+    margin: 0;
+}
+
+.fc-custom1-button, .fc-custom2-button {
+    visibility: hidden !important;
+}
+
+.calendarSettings .fc-today-button {
+    display: none !important;
+}
+
+.calendarSettings .calendarSettings .fc .fc-daygrid-day.fc-day-today {
+    background-color: #EEF3FB !important;
+}
+
+.settingButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.5px 16px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #297AF7;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 6px;
+    color: #297AF7;
+    margin: 10px 0;
+}
+
+.timeSettingsInput input.react-datepicker-ignore-onclickoutside, .timeSettingsInput .react-datepicker-wrapper input[type="text"] {
+    width: 150px;
+    border: 1px solid #CDD1D7;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* line-height: 25px; */
+    color: #2E2E2E;
+    padding: 10px 60px 10px 10px;
+}
+
+.timeSettingsInput .react-datepicker__triangle {
+    display: none !important;
+}
+
+.calendar .row {
+    height: 100%;
+}
+
+.fc-custom2-button +button {
+    visibility: hidden;
+}
+
+.timeZoneDropdown .css-2b097c-container {
+    width: 100%;
+}
+
+.calendar .exp1, .calendar .exp2, .calendar .timeSpan {
+    font-size: 13px !important;
+}
+
+.calendar .toggler>div, .calendar .boldInfo, .calendar .verBar, .calendar .skillTag, .calendar .missingTag, .calendar .notAvailable {
+    font-size: 13px;
+}
+.eventView .fc .fc-timegrid-axis-cushion, .fc .fc-timegrid-slot-label-cushion {
+    padding: 0px 12px !important;
+    line-height: 15px !important;
+    color: #A7ABB0 !important;
+}
+.eventView .fc .fc-timegrid-slot-label{
+    border: 0 !important;
+}
+.eventView .fc-timegrid-slots tbody {
+    background-color: #efefef !important;
+}
+.eventView .fc-today-button, .fc-custom1-button{
+    font-size: 14px !important;
+}
+.eventView select.viewButton:hover {
+    cursor: pointer;
+}
+.eventView .fc-toolbar-chunk .fc-button-group .fc-button{
+    border: 1px solid #A7ABB0 !important;
+}
+.eventView .fc .fc-timegrid-axis-cushion, .fc .fc-timegrid-slot-label-cushion {
+    padding: 0px 12px !important;
+    line-height: 15px !important;
+    color: #A7ABB0 !important;
+}
+.eventView .fc .fc-timegrid-slot-label{
+    border: 0 !important;
+}
+.eventView .fc-timegrid-slots tbody {
+    background-color: #efefef !important;
+}
+
+.eventView .fc-media-screen .fc-timegrid-event, .eventView .fc-daygrid-day-events{
+    bottom:0 !important;
+    border: 0 !important;
+}
+.eventView .fc-today-button, .fc-custom1-button{
+    font-size: 14px !important;
+}
+.eventView select.viewButton:hover {
+    cursor: pointer;
+}
+.eventView .fc-toolbar-chunk .fc-button-group .fc-button{
+    border: 1px solid #A7ABB0 !important;
+}
+.calendarSettings .react-tabs__tab {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 17px 123px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.loadingCalender {
+    margin: calc(50% - 100px);
+}
+
+.zoomIcon {
+    width: 16px;
+    height: 16px;
+    margin: auto 5px 0 0;
+}
+
+.eventView thead .fc-scroller {
+    overflow: hidden !important;
+}
+
+.calendarView .fc .fc-daygrid-day-bg .fc-highlight {
+    background-color: #297AF7 !important;
+    border-radius: 50%;
+}
+
+.calendarView .fc-day-today a {
+    color: #297AF7;
+}
+
+.eventView button:focus {
+    outline: 0 !important;
+}
+
+.eventView button {
+    padding: 0 !important;
+    margin: 6px;
+}
+
+.eventView .fc-timegrid-event .fc-event-main {
+    padding: 0 !important;
+}
+
+.react-tabs__tab:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.react-tabs__tab:focus:after {
+    height:0px !important;
+}
+
+button.settingButton.btn.btn-primary:hover {
+    color: white !important;
+    background-color: #297AF7 !important;
+    border-color: #297AF7;
+}
+
+.calendarSettings .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected,
+.editEvents .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected,
+.calendarSettings .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover,
+.editEvents .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover,
+.editEvents .react-datepicker__day--selected {
+    background-color: #297AF7;
+}
+
+.calendarSettings .caretTimeZone {
+    right: 15px;
+}
+
+.contentContainer .react-tabs__tab--selected {
+    border-bottom: 4px solid #297AF7 !important;
+}
+
+.react-tabs__tab {
+    border-bottom: 0 !important;
+}
+
+.calendarSettings .timezone-picker li {
+    list-style: none;
+    padding: 5px 0px !important;
+}
+
+.calendarSettings .timezone-picker-list {
+    margin-top:13px;
+    left: 0px !important;
+}
+
+.calendarSettings .timezone-picker input.form-control {
+    cursor: pointer;
+    z-index: 2;
+    background: transparent !important;
+}
+
+.highlight-date a {
+    color: white !important;
+    background-color: #297AF7 !important;
+    border-radius: 50%;
+}
+
+.mainHeading .settingButton:hover, .mainHeading .settingButton:focus .mainHeading .settingButton:active {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.contentContainer .notSpecified {
+    margin-right: 46%;
+}
+
+.calendarView .highlight-date .fc-daygrid-day-top {
+    opacity: 1 !important;
+}
+
+button.iconButton:focus {
+    outline: none !important;
+}
+
+.calendarSettings .fc-prev-button {
+    position: absolute;
+    left: 390px;
+}
+
+.calendarSettings .fc-next-button {
+    position: absolute;
+    left: 410px;
+}
